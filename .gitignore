@@ -1,0 +1,34 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.eggs/
+
+# ---- 本地策略存储（运行时产物，非源码）----
+.aip_store/
+store/
+demo_out/
+
+# ---- 生成物（由 compile/deploy 产生）----
+*.aip
+*.rego
+*_test.rego
+
+# ---- Node / Dashboard 构建 ----
+node_modules/
+dist/
+build/
+.vite/
+coverage/
+
+# ---- 密钥 / 环境 ----
+.env
+*.env
+*.key
+
+# ---- 编辑器 / 系统 ----
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
